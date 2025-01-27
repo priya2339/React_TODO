@@ -1,0 +1,84 @@
+
+.todo-container {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo-input button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-input button:hover {
+    background-color: #218838;
+}
+
+.tasks ul, .completed-tasks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tasks li, .completed-tasks li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tasks button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.tasks button:nth-child(2) {
+    background-color: #007bff;
+}
+
+.tasks button:nth-child(3) {
+    background-color: #ffc107;
+}
+
+.tasks button:nth-child(4) {
+    background-color: #dc3545;
+}
+
+.tasks button:hover {
+    opacity: 0.8;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.com{
+    background-color: #28a745;
+}
